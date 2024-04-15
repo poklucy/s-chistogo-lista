@@ -1,1 +1,284 @@
+h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
+ margin: 0;
+ padding: 0;
+ font-size: 100%; 
+ font-weight: normal;
+
+}
+
+.body {
+    font-family: 'Inter';    
+    margin: 0;
+    background-color: #1e1e1e;
+    width: 360px;
+    
+}
+
+.content-section {
+    box-sizing:border-box;
+    padding-left: 20px;
+    padding-right: 20px;  
+}
+
+.content-section_theme_dark{
+    background-color:#131313;
+    color:white; 
+}
+
+.content-section_theme_bright{
+ background-color: #FEE42A;
+ color:black;
+}
+
+/*Шапка страницы*/ 
+.header {
+    padding-left: 20px;
+    padding-top: 24px;
+    padding-right: 20px;
+    padding-bottom: 31px;
+    display: flex;
+    font-family: 'Inter';
+    
+}
+ 
+.header__menu {
+    margin-left: auto;
+}
+
+.header__menu-list {
+    list-style-type: none;
+    display: flex;
+    row-gap: 12px;
+    flex-direction: column;
+}
+
+.header__menu-item_active{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.header__menu-link{
+    color: white;
+}
+   
+.header__logo-image{
+    height: 15.43px;
+    width: 78.45px;
+}
+
+/*Cover*/
+
+.cover{
+    background-image: url(../images/cover.svg);
+    background-repeat:no-repeat;
+    background-size:95%;
+    background-position: right;
+    padding-bottom: 30px; 
+    padding-top: 7px;
+ }
+.cover__title{
+    display: flex;
+    font-family: 'EB Garamond';
+    font-size: 72px;
+    flex-direction:column; 
+    line-height:72px;
+}
+.accent-span {
+    display: block;
+}
+.text-center{
+    text-align:center;        
+}
+.text-right{
+    text-align:end;      
+}
+
+
+/* Интро */
+
+ 
+.intro__content-section{
+    display:flex;
+    flex-direction: column;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 38px;
+    justify-content:space-between;
+    gap:24px;
+}   
+
+.intro__heading{  
+    display:flex; 
+    color: #cccccc; 
+}
+
+.intro__title{
+    display: block;
+    justify-content: flex-end;
+    
+}
+
+.intro__date{
+    display: block;
+    white-space: nowrap;
+}
+
+.intro__main-text{  
+    color: #f5f5f5;
+    font-size: 16px;
+line-height: 135%;
+}
+
+/* Резон */
+
+.reasons{
+    
+    display: flex;
+    padding-left: 16px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    flex-direction: column;
+    justify-content:space-between;
+    
+}
+.content-section__subtitle{
+    font-size: 28px;
+    line-height:115% ;
+    display: flex;
+    flex-direction: column;
+    font-family: 'EB Garamond Medium';
+    padding-bottom: 32px;
+    padding-right: 20px;
+}
+
+
+.text-right{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.content-section__introduction{
+    font-size:20px;
+    padding-bottom: 32px;
+    line-height: 27px;
+    padding-right: 20px;
+}
+
+.content-section__list{
+    display: flex;
+    padding-right: 20px;
+    padding-left: 20px;
+    flex-direction:column;
+    align-items: flex-start;
+    gap: 16px 0;
+    line-height: 135%;
+    
+}
+
+.content-section__list-item{
+    font-style: bold;
+}
+
+/* How to */
+
+.how_to{
+    display: flex;
+    flex-direction:column;
+    justify-content:space-between;
+    padding-left: 20px;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+.cards-list{
+    list-style-type: none;
+    gap: 32px;
+
+}
+.card{
+  box-sizing: border-box;
+  border-radius: 30px;
+  margin-right: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction:column;
+  justify-content:space-between;
+  
+}
+
+.card_theme_dark{
+    background-color: #343434;
+ color:#F5F5F5;
+}
+
+.card_theme_bright{
+    background-color: #FEE42A;
+    color:black; 
+}
+
+.card__author-photo{
+    width: 100px;
+    height: 100px;
+    
+}
+
+.card__author-name{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+.card__title{
+    font-family: 'EB Garamond Medium';
+    font-size: 22px;  
+    padding-bottom: 8px;
+}
+
+.card__text{
+    font-size: 16px;
+    line-height: 135%;
+    
+}
+
+.cards-list{
+    display: flex;
+    flex-direction:column;
+    justify-content:space-between;
+}
+    
+
+/* Footer */
+
+.footer{
+  display: flex; 
+  justify-content:space-between;
+  border-top-style: solid;
+  border-top-color: #FEE42A;
+  border-top-width: 1px;
+  padding-top: 20px;  
+  padding-bottom: 20px;
+}
+
+.footer__copy{
+        text-align:start;
+}
+
+.footer__links{
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;  
+}
+
+.footer__link{
+    text-decoration: none;
+    color: white;
+    padding-left: 14px;
+font-size: 14px;
+line-height: 125%;    
+}
+   
+
+
 

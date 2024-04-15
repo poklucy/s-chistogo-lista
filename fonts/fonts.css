@@ -1,1 +1,46 @@
+@font-face {
+    font-family: 'EB Garamond Medium';
+    src:
+      url(c:\Git\s-chistogo-lista\fonts\ebgaramondmedium.woff2)
+        format('woff2'),
+      url(c:\Git\s-chistogo-lista\fonts\ebgaramondmedium.woff)
+        format('woff'),
+      url(c:\Git\s-chistogo-lista\fonts\ebgaramondmedium.ttf)
+        format('truetype');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'EB Garamond';
+    src:
+      url(c:\Git\s-chistogo-lista\fonts\ebgaramondregular.woff2)
+        format('woff2'),
+      url(c:\Git\s-chistogo-lista\fonts\ebgaramondregular.woff)
+        format('woff'),
+      url(c:\Git\s-chistogo-lista\fonts\ebgaramondregular.ttf)
+        format('truetype');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Inter';
+    src:
+      url(c:\Git\s-chistogo-lista\fonts\interregular.woff2)
+        format('woff2'),
+      url(c:\Git\s-chistogo-lista\fonts\interregular.woff)
+        format('woff'),
+      url(c:\Git\s-chistogo-lista\fonts\interregular.ttf)
+        format('truetype');
+        font-weight: 400;
+}
+@font-face {
+    font-family: 'Inter';
+    src:
+      url(c:\Git\s-chistogo-lista\fonts\interbold.woff2)
+        format('woff2'),
+      url(c:\Git\s-chistogo-lista\fonts\interbold.woff)
+        format('woff'),
+      url(c:\Git\s-chistogo-lista\fonts\interbold.ttf)
+        format('truetype');
+        font-weight: 700;
+}
+
 
