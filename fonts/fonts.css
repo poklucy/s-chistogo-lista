@@ -30,6 +30,7 @@
       url(c:\Git\s-chistogo-lista\fonts\interregular.ttf)
         format('truetype');
 }
+
 @font-face {
     font-family: 'Inter';
     src:
@@ -39,6 +40,4 @@
         format('woff'),
       url(c:\Git\s-chistogo-lista\fonts\interbold.ttf)
         format('truetype');
-        
-
-
+}
