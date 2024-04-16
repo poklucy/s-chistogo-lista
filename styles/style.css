@@ -156,10 +156,6 @@ blockquote {
   padding-right: 20px;
 }
 
-.text-right {
-  justify-content: flex-end;
-}
-
 .content-section__introduction {
   font-size: 20px;
   padding-bottom: 32px;
@@ -191,6 +187,8 @@ blockquote {
 .cards-list {
   list-style-type: none;
   gap: 32px;
+  display: flex;
+  flex-direction: column;
 }
 
 .card {
@@ -236,11 +234,6 @@ blockquote {
 .card__text {
   font-size: 16px;
   line-height: 135%;
-}
-
-.cards-list {
-  display: flex;
-  flex-direction: column;
 }
 
 /* Footer */
